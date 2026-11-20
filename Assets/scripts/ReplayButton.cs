@@ -6,6 +6,6 @@ public class WinScreen : MonoBehaviour
     public void RestartGame()
     {
         GameTimer.Instance.ResetTimer();
-        SceneManager.LoadScene("Hell level");
+        SceneManager.LoadScene("Level");
     }
 }
